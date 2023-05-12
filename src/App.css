@@ -1,0 +1,86 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 20px;
+}
+.pagination_wrapper{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.page-item{
+    cursor: pointer;
+    margin:5px;
+    padding:5px;
+}
+
+.highlight{
+    background-color: #c8c8c8;
+    border-radius: 2px;
+}
+
+
+
+/* search css */
+.searchBar{
+    background-color: rgb(221, 228, 228);
+    margin:0;
+    padding: 0;
+    border-radius: 5px ;
+    height: 50vh;
+    margin-left:20%;
+    margin-right: 20%;
+}
+.seach_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    font-size: 4vmin;
+    padding-top: 10px;
+    color:rgb(54, 54, 148)
+}
+
+.seach_wrapper >label{
+    margin-right: 10px;
+}
+
+
+/* filter */
+
+.filter{
+    margin-bottom:5px;
+    padding-top:15px ;
+}
+.filterHeading{
+    text-align: center;
+    color:rgb(54, 54, 148);
+    text-decoration: underline;
+}
+.filterSubHeading{
+    padding-left: 15px;
+    margin-top: 15px;
+    color:rgb(54, 54, 148) ;
+    font-size: 3vmin;
+    padding-left: 20%;
+
+}
+.text-center{
+    text-align: center;
+    margin-top: 15px;
+   
+}
+
